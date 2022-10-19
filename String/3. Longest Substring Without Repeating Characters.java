@@ -1,11 +1,10 @@
 //Leetcode Problem
-//Does not work for very long string
 
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
 
-        if( s.length()==1)
+      if( s.length()==1)
         {
             return 1;
         }
@@ -27,10 +26,6 @@ if(!substring.contains(letters[j]))
 }
 else{
     size=substring.size();
-    for(int k=0;k<size;k++)
-    {
-    System.out.println(substring.get(k));
-    }
     break;
 }
             }
